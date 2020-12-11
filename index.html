@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Table Tennis</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-section">
+        <div class="img"></div>
+        <h2 class="heading-primary">Table Tennis Score Keeper</h2>
+        <hr class="hr" />
+      </div>
+      <div class="dynamic-section">
+        <div class="score">
+          <h1>
+            <span class="player-1-score">0</span>
+            <!--add "win" class for win-->
+            to
+            <span class="player-2-score">0</span>
+          </h1>
+        </div>
+        <h3 class="heading-secondary">
+          Click Player Buttons to play the game.
+        </h3>
+        <div class="playing-to">
+          <h2>Playing to</h2>
+          <select name="select" id="select">
+            <option value="3">+3</option>
+            <option value="4">+4</option>
+            <option value="5">+5</option>
+            <option value="6">+6</option>
+            <option value="7">+7</option>
+            <option value="8">+8</option>
+          </select>
+        </div>
+        <div class="buttons">
+          <button class="btn player-1">+1 Player one</button>
+          <button class="btn player-2">+1 Player one</button>
+          <button class="btn reset">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
