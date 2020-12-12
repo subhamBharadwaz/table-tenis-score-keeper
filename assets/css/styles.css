@@ -79,9 +79,15 @@ body {
   font-size: 2.3rem;
   margin-bottom: -1rem;
 }
-.dynamic-section .score .win {
+/* Winner */
+.winner {
   color: rgb(0, 253, 106);
 }
+/* Loser */
+.loser {
+  color: rgb(255, 33, 33);
+}
+/* ///// */
 .dynamic-section .heading-secondary {
   font-size: 1.6rem;
   margin-bottom: 2rem;
@@ -134,10 +140,10 @@ body {
 .buttons .btn:hover {
   opacity: 1;
 }
-.buttons .player-1 {
+.buttons .player-1-btn {
   background: #28c7fa;
 }
-.buttons .player-2 {
+.buttons .player-2-btn {
   background: #775ada;
 }
 .buttons .reset {
